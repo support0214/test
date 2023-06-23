@@ -1,0 +1,81 @@
+* {
+  margin: 0 auto;
+  padding: 0 auto;
+}
+body {
+  width: 1200px;
+  height: 2000px;
+  background-color: #f9f7e8;
+}
+.logo {
+  display: block;
+}
+.address {
+  text-align: center;
+  margin: 15px 0 15px 0;
+}
+.address > input {
+  width: 300px;
+  height: 30px;
+  border: 1px solid;
+  border-radius: 10px;
+  margin-right: 10px;
+  text-indent: 16px;
+}
+.address > button {
+  box-sizing: border-box;
+  height: 36px;
+  width: 70px;
+  background-color: white;
+  border: 1px solid;
+  border-radius: 10px;
+}
+.login {
+  float: right;
+  box-sizing: border-box;
+  border: 1px solid;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid;
+  height: 40px;
+  width: 80px;
+}
+.slide {
+  clear: both;
+  text-align: center;
+}
+.slide > img {
+  height: 300px;
+  width: 1200px;
+  margin: 10px 0 10px 0;
+}
+.container {
+  width: 1000px;
+  display: grid;
+  grid-gap: 4px;
+  grid-template-columns: repeat(3, minmax(auto, 1fr));
+  align-items: center;
+  justify-content: space-around;
+  height: 400px;
+}
+.category {
+  border: 1px solid;
+  width: 200px;
+  height: 150px;
+  text-align: center;
+  border-radius: 20px;
+  background-color: white;
+  border: none;
+}
+.category > a > img {
+  width: 200px;
+  height: 150px;
+}
+footer {
+  margin: 10px 0 10px 0;
+  display: flex;
+  justify-content: space-around;
+  font-size: small;
+  flex-wrap: wrap;
+  padding: 20px;
+}
